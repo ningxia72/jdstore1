@@ -1,3 +1,3 @@
 # README
 
- mailer&AASM
+ qiniu&figaro
