@@ -1,0 +1,161 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "font-awesome";
+
+ .jumbotron {
+   background-image:url('http://oous4398f.bkt.clouddn.com/pitaya%20%E9%A2%98%E5%9B%BE.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 150px;
+ }
+
+ .title {
+   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+   text-align: center;
+   margin-top: 200px;
+   margin-bottom: 80px;
+ }
+
+ .slogan {
+   margin-top: 10px;
+   margin-bottom: 50px;
+   text-align: left;
+   color: black;
+   top: 12px;
+ }
+
+ .lead {
+   margin-bottom: 60px;
+   text-align: left;
+   color: #404040;
+ }
+
+ .caption {
+   margin: 150px;
+   text-align: center;
+   top: 120px;
+ }
+
+ .thumbnail {
+     border: 0 none;
+     box-shadow: none;
+     margin-top: 160px;
+ }
+
+ .custab{
+   border: 20px solid #ccc;
+
+   padding: 30px;
+   margin: 10% 0;
+   box-shadow: 6px 6px 0px #ccc;
+
+   transition: 0.5s;
+ }
+
+ .custab:hover{
+   box-shadow: 30px 30px 0px transparent;
+   transition: 0.5s;
+ }
+
+ /*===== 產品信息區塊設置 =====*/
+ .product-show {
+   margin: 0 0 100px 0;
+ }
+   /*===== 產品圖片區塊設置=====*/
+   .product-image {
+     .image-box {
+       padding: 7.5px;
+     }
+
+     .main-image {
+       width: 100%;
+       margin-bottom: 10px;
+     }
+
+     .list-image {
+       width: 100%;
+     }
+
+     .list-image-active {
+       box-shadow: 1.5px 1.5px 1.5px #666;
+     }
+   }
+ /*===== 按鈕設置 =====*/
+    .btn-default {
+      margin-top: 25px;
+      width: 100%;
+      color: #666;
+    }
+
+    .btn-default:hover {
+      background-color: #fff;
+      border-color: #eb5424;
+      color: #eb5424;
+    }
+
+    .quantity-box {
+      height: 20px;
+    }
+      .quantity-input {
+        width: 50px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 2.5px;
+        outline: none;
+      }
+
+      .quantity-input:focus {
+        border: 1px solid #000;
+      }
+
+      .quantity-actions {
+        padding: 2.5px 10px 2.5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 2.5px;
+      }
+
+      .quantity-actions:hover {
+        border: 1px solid #eb5424;
+      }
+
+/*===== 链接按鈕 =====*/
+      .navbar {
+          margin-bottom: 0;
+          background-color: #D9EF0;
+          z-index: 9999;
+          border: 0;
+          font-size: 14px !important;
+          line-height: 1.42857143 !important;
+          letter-spacing: 4px;
+          border-radius: 0;
+      }
+
+      .navbar li a, .navbar .navbar-brand {
+          color: #73B549 !important;
+      }
+
+      .navbar-nav li a:hover, .navbar-nav li.active a {
+          color: #73B549 !important;
+          background-color: #fff !important;
+      }
+
+      .navbar-default .navbar-toggle {
+          border-color: transparent;
+          color: #73B549 !important;
+      }
