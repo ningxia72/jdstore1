@@ -1,3 +1,3 @@
 # README
 
-story6 better index/html
+ better welcome/index &navbar
