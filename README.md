@@ -1,3 +1,3 @@
 # README
 
- better welcome/index &navbar
+add modal function
