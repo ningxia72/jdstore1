@@ -1,22 +1,5 @@
-<!-- <section>
-  <div class="breadcrumps-back">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="breadcrumps-heading">
-            <h3>商品展示</h3>
-            <div class="breadcrumps-border"></div>
-            <ul>
-              <li><a href="/"> 首页</a> </li>
 
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<div class="container">
+ <div class="container">
   <div class="row product-width" >
     <div class="col-md-12 " >
       <div class="filter">
@@ -27,9 +10,9 @@
       </div>
       <hr>
     </div>
-    
+
 <!-- grid商品栏目 -->
-<section id="shop-without-sidebar" style="margin: 20px auto 100px;">
+ <section id="shop-without-sidebar" style="margin: 20px auto 100px;">
   <div class="container">
     <div class="row">
       <% @products.each do |product| %>
@@ -50,7 +33,7 @@
               <h5>￥<%= product.price %></h5>
 
               <!-- <a class="btn cart-button" href="#"> 加入购物车 </a> -->
-              <% if product.quantity.present? && product.quantity > 0 %>
+               <% if product.quantity.present? && product.quantity > 0 %>
                 <%= link_to("加入购物车", add_to_cart_product_path(product), method: :post, class: "btn cart-button") %>
               <% else %>
                 已销售一空，无法购买！
@@ -60,39 +43,11 @@
         </div>
         <% end %>
 
-
-
-        <% @products.each do |product| %>
-        <div class="col-md-3 col-sm-6 col-xs-6">
-          <div class="product-style-1 text-center">
-            <%= link_to product_path(product) do %>
-            <% if product.image.present? %>
-            <%= image_tag(product.image.thumb.url, class: "img-responsive", alt: product.title) %>
-            <% else %>
-            <%= image_tag("http://placehold.it/200x200&text=No Pic", class: "img-responsive", alt: "None") %>
-            <% end %>
-          <% end %>
-          <div class="product-detail-content">
-            <h6><%= product.title %><h6>
-              <div class="product-rating-with-border">
-                <div class="background-border"></div>
-              </div>
-                <h5>￥<%= product.price %></h5>
-
-                <!-- <a class="btn cart-button" href="#"> 加入购物车 </a> -->
-                <% if product.quantity.present? && product.quantity > 0 %>
-                  <%= link_to("加入购物车", add_to_cart_product_path(product), method: :post, class: "btn cart-button") %>
-                <% else %>
-                  已销售一空，无法购买！
-                <% end %>
-              </div>
-            </div>
-          </div>
-        <% end %>
-
       </div>
     </div>
   </section>
+
+
 
   <!-- <div class="row">
     <% @products.each do |product| %>
