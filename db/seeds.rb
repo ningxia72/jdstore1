@@ -26,14 +26,14 @@ Product.create!(title: "5斤装火龙果",
 description: "5斤装",
 price: 138,
 quantity: 5,
-image: open("http://ww1.sinaimg.cn/large/006tNc79gy1fg3qjmmizgj30rb0hokfu.jpg")
+image: open(src="http://oous4398f.bkt.clouddn.com/pitaya%20%E9%A2%98%E5%9B%BE.jpg")
 )
 
 Product.create!(title: "9斤装火龙果",
 description: "9斤装",
 price: 198,
 quantity: 5,
-image: open("http://ww4.sinaimg.cn/large/006tNc79gy1fg4owd4ezvj31031xzkjm.jpg")
+image: open(src="http://ww4.sinaimg.cn/large/006tNc79gy1fg4owd4ezvj31031xzkjm.jpg")
 )
 
 Product.create!(title: "冰沙",
