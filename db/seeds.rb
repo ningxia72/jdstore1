@@ -26,14 +26,14 @@ Product.create!(title: "5斤装火龙果",
 description: "5斤装",
 price: 138,
 quantity: 5,
-image: open("http://oous4398f.bkt.clouddn.com/uploads/product/image/3/thumb_%E5%86%9C%E5%9C%BA%E7%BA%A2%E6%9E%9C.JPG")
+image: open("http://ww1.sinaimg.cn/large/006tNc79gy1fg3qjmmizgj30rb0hokfu.jpg")
 )
 
 Product.create!(title: "9斤装火龙果",
 description: "9斤装",
 price: 198,
 quantity: 5,
-image: open("http://oous4398f.bkt.clouddn.com/%E5%86%B0%E6%B2%99.jpg")
+image: open("http://ww4.sinaimg.cn/large/006tNc79gy1fg4owd4ezvj31031xzkjm.jpg")
 )
 
 Product.create!(title: "冰沙",
@@ -47,5 +47,5 @@ Product.create!(title: "果园的清晨",
 description: "富含微量元素的土地",
 price: 88888,
 quantity: 0,
-image: open("http://oous4398f.bkt.clouddn.com/%E6%9E%9C%E5%9B%AD%E5%85%A8%E6%99%AF")
+image: open("http://ww4.sinaimg.cn/large/006tNc79gy1fg4owd4ezvj31031xzkjm.jpg")
 )
